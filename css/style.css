@@ -1,0 +1,67 @@
+body {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.vanish {
+	display: none;
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	min-height: 100%;
+}
+.container-fluid-head {
+	width:100%;
+	height: 35rem;
+	background-image: url(../img/sky-bg.jpg);
+}
+.container-fluid-head h1 { 
+	color: #458B74;
+	font-size: 4em;
+	margin-left: 35%;
+	padding-top: 10%;
+}
+.container-fluid-head img {
+	position: relative;
+	left: 35%;
+	top: 2%;
+}
+
+.container-fluid .box-show-msg {
+	width: 100%;
+	min-height: 100%;
+	margin-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.box-msg .row {
+	width: 100%;
+}
+.box-msg .col-lg-6 {
+	width:50%;
+	margin-left: 30%;
+}
+.box-msg .form-control {
+	height: 2em;
+	font-size: 2em;
+}
+.box-msg .btn-secondary {
+	width: 10em;
+	background-color: #66CDAA;
+}
+.box-msg .clean{
+	margin-left: 3%;
+}
+.aviso{
+	width: 100%;
+	padding-left: 0;
+	margin-top: 1%;
+	background-color: #FFA500;
+}
+.aviso h1{
+	text-align: center;
+	font-size: 2rem;
+}
